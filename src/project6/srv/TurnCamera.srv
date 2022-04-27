@@ -1,0 +1,3 @@
+float32 deg_turn
+---
+sensor_msgs/Image camera_image
