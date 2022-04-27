@@ -232,9 +232,9 @@ ros@ubuntu:~/catkin_ws/project6_ws$
 
 ros@ubuntu:~/catkin_ws/project6_ws$ source devel/setup.bash
 ros@ubuntu:~/catkin_ws/project6_ws$ rosrun project6 turn_camera_service_server 
-/home/ros/catkin_ws/project6_ws/devel/lib/project6/turn_camera_service_server
-/home/ros/catkin_ws/project6_ws/
-[ INFO] [1651022158.430582235]: Turn Camera Server Running...
+/home/ros/catkin_ws/project6_ws/devel/lib/project6/turn_camera_service_server           <-----------------------------------------------
+/home/ros/catkin_ws/project6_ws/                                                           <----------------------------------------------- Project PATH
+[ INFO] [1651022158.430582235]: Turn Camera Server Running...                               <----------------------------------------------- When Client Start Tunning
 /home/ros/catkin_ws/project6_ws/src/project6/images/30.png
 /home/ros/catkin_ws/project6_ws/src/project6/images/0.png
 /home/ros/catkin_ws/project6_ws/src/project6/images/15.png
