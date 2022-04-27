@@ -3,7 +3,40 @@
 
 # sms-course-project 6
 
-- Creating the project 5
+### How to push your local respository to remote Github Repository
+
+1. create a GitHub Repository
+2. Add ROS gitignore file & Readme.md files. 
+```bash
+ros@ubuntu:~/catkin_ws/project6_ws$  git init
+Initialized empty Git repository in /home/ros/catkin_ws/project6_ws/.git/
+ros@ubuntu:~/catkin_ws/project6_ws$  git remote add origin "https://github.com/................git"
+ros@ubuntu:~/catkin_ws/project6_ws$  git add .
+ros@ubuntu:~/catkin_ws/project6_ws$ git commit -m "ver1"
+git remote set-url origin https://..........PRIVATEKEY......t@github.com/..................git
+git push origin master
+```
+3. Modifying the local repository and push again!
+```bash
+ros@ubuntu:~/catkin_ws/project6_ws$ git rm -r --cached .
+ros@ubuntu:~/catkin_ws/project6_ws$  git add .
+ros@ubuntu:~/catkin_ws/project6_ws$ git commit -m "ver2"
+git remote set-url origin https://..........PRIVATEKEY......t@github.com/..................git
+git push --force origin master
+Enumerating objects: 426, done.
+Counting objects: 100% (426/426), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (383/383), done.
+Writing objects: 100% (426/426), 9.07 MiB | 2.95 MiB/s, done.
+Total 426 (delta 192), reused 0 (delta 0)
+remote: Resolving deltas: 100% (192/192), done.
+To https://github.com/online-courses-materials/sms-project6.git
+ + 6d929d1...8b3e520 master -> master (forced update)
+
+```
+
+
+### Creating the project 6
 ```bash
 ros@ubuntu:~/catkin_ws$ mkdir project6_ws
 ros@ubuntu:~/catkin_ws$ cd project6_ws/
