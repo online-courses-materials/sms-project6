@@ -5,15 +5,17 @@
 
 ### How to push your local respository to remote Github Repository
 
+
 1. create a GitHub Repository
 2. Add ROS gitignore file & Readme.md files. 
+3. * How to create personal access token: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 ```bash
 ros@ubuntu:~/catkin_ws/project6_ws$  git init
 Initialized empty Git repository in /home/ros/catkin_ws/project6_ws/.git/
 ros@ubuntu:~/catkin_ws/project6_ws$  git remote add origin "https://github.com/................git"
 ros@ubuntu:~/catkin_ws/project6_ws$  git add .
 ros@ubuntu:~/catkin_ws/project6_ws$ git commit -m "ver1"
-git remote set-url origin https://..........PRIVATEKEY......t@github.com/..................git
+git remote set-url origin https://..........personal access token......t@github.com/..................git
 git push origin master
 ```
 3. Modifying the local repository and push again!
